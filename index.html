@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Top 100</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link  href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<main class="main-app">
+    <div class="container-fluid">
+        <header class="main-header">
+            <h1>Top 100 albums from iTunes</h1>
+            <section class="soundbar">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </section>
+        </header>
+        <section class="sort">
+            <form class="form-inline">
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Sort</label>
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                    <option selected>Choose...</option>
+                    <option value="1">Category</option>
+                    <option value="2">Artist</option>
+                </select>
+            </form>
+        </section>
+        <section class="albums">
+            <ul class="albums__list">
+                <li class="single-album single-album--hide">
+                    <div class="wrapper">
+                        <div class="single-album__cover">
+                            <img src="" alt="">
+                        </div>
+                        <div class="single-album__desc">
+                            <p class="single-album__category">
+                            </p>
+                            <h3 class="single-album__title"></h3>
+                            <h4 class="single-album__artist"></h4>
+                        </div>
+                        <div class="arrow-left">
+                            <i class="material-icons">
+                                keyboard_arrow_left
+                            </i>
+                        </div>
+                    </div>
+                    <div class="more-info">
+                        <h4 class="single-album__artist">
+
+                        </h4>
+                        <h5 class="more-info__release">
+                            fdgdgdfg
+                        </h5>
+                        <h5 class="more-info__rights">
+                            dgfdgfg
+                        </h5>
+                        <h5 class="more-info__price">
+                            dfsdsfsdfsf
+                        </h5>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

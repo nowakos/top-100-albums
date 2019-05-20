@@ -1,0 +1,19 @@
+{
+  "name": "zadanie",
+  "version": "1.0.0",
+  "description": "rozwiazanie_zadania",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michał Nowakowski",
+  "license": "ISC"
+}

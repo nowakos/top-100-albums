@@ -1,0 +1,18 @@
+// Modules
+@import 'modules/fonts';
+@import 'modules/colors';
+@import 'modules/media-queries';
+
+// Base
+@import 'base/reset';
+@import 'base/body';
+
+// Partials
+@import "partials/main-app";
+@import "partials/main-header";
+@import "partials/soundbar";
+@import "partials/sort";
+@import "partials/albums-list";
+@import "partials/single-album";
+@import 'partials/buttons';
+

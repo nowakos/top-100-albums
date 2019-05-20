@@ -1,0 +1,15 @@
+.main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  h1 {
+    font-size: 1.1rem;
+  }
+
+@media #{$tablet} {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+}
